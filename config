@@ -1,0 +1,30 @@
+[global_config]
+  focus = mouse
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#2d293d"
+    background_darkness = 0.82
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    foreground_color = "#babdb6"
+    login_shell = True
+    show_titlebar = False
+  [[Sumitg]]
+    background_color = "#2e3436"
+    background_darkness = 0.99
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    cursor_shape = ibeam
+    icon_bell = False
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    show_titlebar = False
